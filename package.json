@@ -1,0 +1,39 @@
+{
+  "name": "react-private-route",
+  "version": "1.0.1",
+  "description": "A Private Route on top of React and react-router",
+  "main": "lib/index.js",
+  "scripts": {
+    "watch": "cross-env NODE_ENV=development webpack -w",
+    "build:dev": "cross-env NODE_ENV=development webpack",
+    "build:production": "cross-env NODE_ENV=production webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hansfpc/react-private-route.git"
+  },
+  "keywords": [],
+  "author": "hansfpc",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "cross-env": "^5.2.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-router-dom": "^4.3.1",
+    "webpack": "^3.10.0"
+  },
+  "peerDependency": {
+    "react": "^16.2.0",
+    "prop-types": "^15.6.0",
+    "react-router-dom": "^4.3.1"
+  },
+  "bugs": {
+    "url": "https://github.com/hansfpc/react-private-route/issues"
+  },
+  "homepage": "https://github.com/hansfpc/react-private-route#readme"
+}

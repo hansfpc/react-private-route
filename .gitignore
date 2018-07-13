@@ -1,0 +1,10 @@
+# WebStorm Stuff
+.idea/
+
+#VSC stuff
+.vscode/
+
+
+# Dependency Directories
+node_modules/
+lib/
