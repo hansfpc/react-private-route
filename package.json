@@ -1,6 +1,6 @@
 {
   "name": "react-private-route",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Private Route on top of React and react-router",
   "main": "lib/index.js",
   "scripts": {
