@@ -1,7 +1,7 @@
 {
   "name": "react-private-route",
-  "version": "1.0.2",
-  "description": "A Private Route on top of React and react-router",
+  "version": "1.0.3",
+  "description": "A Private Route component on top of React and react-router",
   "main": "lib/index.js",
   "scripts": {
     "watch": "cross-env NODE_ENV=development webpack -w",
@@ -12,7 +12,12 @@
     "type": "git",
     "url": "git+https://github.com/hansfpc/react-private-route.git"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "react-router",
+    "react-private-route",
+    "routing"
+  ],
   "author": "hansfpc",
   "license": "MIT",
   "devDependencies": {
