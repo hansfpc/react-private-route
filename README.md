@@ -18,7 +18,11 @@ Using [yarn](https://yarnpkg.com/):
 ### Basic Usage
 
 ```js
+...
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+...
 import PrivateRoute from 'react-private-route'
+...
 
 class App extends Component {
   render() {
