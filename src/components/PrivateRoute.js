@@ -5,38 +5,34 @@ import PropTypes from 'prop-types'
 const PrivateRoute = ({
   component: Component,
   isAuthenticated,
-  redirectTo,
-  exact,
-  path,
-  strict,
+  redirect: pathname,
   ...rest
 }) => {
   return (
     <Route
       {...rest}
-      strict={strict ? strict : undefined}
-      exact={exact}
-      path={path}
       render={props =>
         isAuthenticated === true ? (
-          <Component {...{ ...props, ...rest }} />
+          <Component {...rest} {...props} />
         ) : (
-          <Redirect to={redirectTo} />
+          <Redirect
+            to={{
+              pathname,
+              state: { from: props.location },
+            }}
+          />
         )
       }
     />
   )
 }
 
-PrivateRoute.defaultProps = { redirectTo: '/login', strict: false, exact: false }
+PrivateRoute.defaultProps = { redirect: '/login' }
 
 PrivateRoute.propTypes = {
   isAuthenticated: PropTypes.bool.isRequired,
-  strict: PropTypes.bool,
-  exact: PropTypes.bool,
   component: PropTypes.func.isRequired,
-  path: PropTypes.string.isRequired,
-  redirectTo: PropTypes.string.isRequired,
+  redirect: PropTypes.string.isRequired,
 }
 
 export default PrivateRoute
