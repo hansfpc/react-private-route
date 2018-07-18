@@ -1,4 +1,4 @@
-## react-private-route [![npm version](https://badge.fury.io/js/react-private-route.svg)](https://badge.fury.io/js/react-private-route) 
+# react-private-route [![npm version](https://badge.fury.io/js/react-private-route.svg)](https://badge.fury.io/js/react-private-route) 
 
 Declarative private routing for React
 
@@ -46,10 +46,10 @@ class App extends Component {
 export default App
 ```
 
-## Issues
+### Issues
 
 If you find a bug, please file an issue on [our issue tracker on GitHub](https://github.com/hansfpc/react-private-route/issues).
 
-## Credits
+### Credits
 
 React Router is built and maintained by @hansfpc.
