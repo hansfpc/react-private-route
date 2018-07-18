@@ -15,6 +15,36 @@ Using [yarn](https://yarnpkg.com/):
     $ yarn add react-private-route
 
 
+### Basic Usage
+
+```js
+import PrivateRoute from 'react-private-route'
+
+class App extends Component {
+  render() {
+    return (
+     ...
+        <Router>
+          <div className={'main-container'}>
+            <Switch>
+              <Route path="/login" component={Login} />
+              <PrivateRoute
+                exact
+                path="/"
+                component={Home}
+                isAuthenticated={!!isLoggedIn() /* this method returns true or false */}
+              />
+              <Route component={NotFound} />
+            </Switch>
+          </div>
+        </Router>
+     ...
+    )
+  }
+}
+
+export default App
+```
 
 ## Issues
 
