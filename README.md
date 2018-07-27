@@ -57,4 +57,4 @@ If you find a bug, please file an issue on [our issue tracker on GitHub](https:/
 
 ### Credits
 
-React Router is built and maintained by [@hansfpc](https://github.com/hansfpc).
+React Private Route is built and maintained by [@hansfpc](https://github.com/hansfpc).
