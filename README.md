@@ -3,6 +3,10 @@
 
 Declarative private routing for React
 
+### Working demo available at
+
+[![Edit y0pw4kz8kx](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/y0pw4kz8kx)
+
 
 ### Installation
 
