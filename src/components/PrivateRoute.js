@@ -32,7 +32,7 @@ PrivateRoute.defaultProps = { redirect: '/login' }
 PrivateRoute.propTypes = {
   isAuthenticated: PropTypes.bool.isRequired,
   component: PropTypes.func.isRequired,
-  redirect: PropTypes.string
+  redirect: PropTypes.string,
 }
 
 export default PrivateRoute
