@@ -1,4 +1,4 @@
-# react-private-route 
+# react-private-route [UNMANTAINED]
 [![npm version](https://badge.fury.io/js/react-private-route.svg)](https://badge.fury.io/js/react-private-route) [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 Declarative private routing for React
